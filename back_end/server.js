@@ -14,7 +14,7 @@ const pokemons = [
   }
 ]
 
-app.use(express.static("build"))
+app.use(express.static('build'))
 
 
 app.get("/api/pokemons", (req, res) => {
